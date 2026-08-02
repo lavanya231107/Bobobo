@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Surprise ❤️</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+background:linear-gradient(135deg,#ffd6e7,#ffeef5,#ffd1dc);
+overflow:hidden;
+text-align:center;
+padding:20px;
+}
+
+.box{
+background:rgba(255,255,255,.8);
+padding:35px;
+border-radius:25px;
+max-width:700px;
+box-shadow:0 10px 30px rgba(255,20,147,.3);
+animation:fade 1.5s;
+}
+
+h1{
+color:#ff1493;
+font-size:42px;
+margin-bottom:20px;
+text-shadow:0 0 15px hotpink;
+}
+
+p{
+font-size:20px;
+line-height:1.9;
+color:#5b2c42;
+}
+
+.heart{
+position:fixed;
+bottom:-50px;
+font-size:25px;
+animation:float 10s linear infinite;
+}
+
+.heart:nth-child(2){left:10%;}
+.heart:nth-child(3){left:30%;}
+.heart:nth-child(4){left:50%;}
+.heart:nth-child(5){left:70%;}
+.heart:nth-child(6){left:90%;}
+
+@keyframes float{
+from{
+transform:translateY(0);
+opacity:1;
+}
+to{
+transform:translateY(-120vh);
+opacity:0;
+}
+}
+
+@keyframes fade{
+from{
+opacity:0;
+transform:scale(.8);
+}
+to{
+opacity:1;
+transform:scale(1);
+}
+}
+</style>
+
+</head>
+<body>
+
+<div class="heart">💖</div>
+<div class="heart">💕</div>
+<div class="heart">🌸</div>
+<div class="heart">💗</div>
+<div class="heart">✨</div>
+
+<div class="box">
+
+<h1>💖 Happy Friendship Day 💖</h1>
+
+<p>
+Some friendships are not measured by years, but by the happiness, comfort, and memories they bring. Thank you for being one of the most beautiful parts of my life. No matter where life takes us, I hope our friendship always stays strong. May you always smile, stay confident, and remember that you are never alone. You are truly precious, and I will always cherish our friendship. ❤️🌸
+</p>
+
+<br>
+
+<h2 style="color:#ff1493;">
+Forever Friends 💕
+</h2>
+
+</div>
+
+</body>
+</html>
